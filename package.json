@@ -1,0 +1,14 @@
+{
+  "name": "muchi-ts-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.ts",
+  "scripts": {
+    "test": "muchi sum.test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "muchi-ts": "git+https://chitson1990@bitbucket.org/chitson1990/test-js.git"
+  }
+}
