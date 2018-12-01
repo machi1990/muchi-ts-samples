@@ -34,9 +34,9 @@ class SumTest {
 
 
     @Test({
-        it: 'adds the number with the amount provided in the second argument'
+        it: 'returns "4" when adding "1" to "3"'
     })
-    public shouldAddTheFirstNumberWithTheSecondNumber() {
+    public shouldReturnFour() {
         // Given
         const a: number = 1;
         const b: number = 3;
@@ -49,4 +49,19 @@ class SumTest {
         assertEqual(sum,expected);
     }
 
+    @Test({
+        it: 'returns "10" when adding "6" to "4"'
+    })
+    public shouldReturnTen() {
+        // Given
+        const a: number = 6;
+        const b: number = 4;
+        const expected: number = 10;
+
+        // When
+        const sum = this.sum.sum(a, b);
+        
+        // Then
+        assertEqual(sum,expected);
+    }
 }
