@@ -25,6 +25,7 @@ class SumTest {
         const a: number = 1;
         const b: number = 0;
         const expected: number = 1;
+        
         // When
         const sum = this.sum.sum(a, b);
         
