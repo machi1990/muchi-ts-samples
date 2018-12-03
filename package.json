@@ -1,14 +1,16 @@
 {
   "name": "muchi-ts-sample",
   "version": "1.0.0",
-  "description": "",
-  "main": "sum.ts",
+  "description": "muchi-ts sample files",
   "scripts": {
-    "test": "muchi sum.test.ts"
+    "test": "muchi -t test/"
   },
-  "author": "",
+  "author": {
+    "name": "Manyanda Chitimbo",
+    "email": "manyanda.chitimbo@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
-    "muchi-ts": "git+https://chitson1990@bitbucket.org/chitson1990/test-js.git"
+    "muchi-ts": "git+https://chitson1990@bitbucket.org/chitson1990/muchi-ts.git"
   }
 }

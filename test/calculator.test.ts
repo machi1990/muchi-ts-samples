@@ -1,20 +1,21 @@
-import Sum from './sum';
+import Calculator from '../src/calculator';
 import {assertEqual, Before, After, TsMuchi, Test} from 'muchi-ts';
 
 @TsMuchi({
-    name: 'class Sum()'
+    name: 'class Calculator()',
+    ignore: true
 })
 class SumTest {
-    private sum: Sum;
+    private calculator: Calculator;
 
     @Before
     public before() {
-        this.sum = new Sum();
+        this.calculator = new Calculator();
     }
 
     @After
     public after() {
-        this.sum = null;
+        this.calculator = null;
     }
 
     @Test({
@@ -25,10 +26,10 @@ class SumTest {
         const a: number = 1;
         const b: number = 0;
         const expected: number = 1;
-        
+
         // When
-        const sum = this.sum.sum(a, b);
-        
+        const sum = this.calculator.sum(a, b);
+
         // Then
         assertEqual(sum,expected);
     }
@@ -44,8 +45,8 @@ class SumTest {
         const expected: number = 4;
 
         // When
-        const sum = this.sum.sum(a, b);
-        
+        const sum = this.calculator.sum(a, b);
+
         // Then
         assertEqual(sum,expected);
     }
@@ -60,8 +61,8 @@ class SumTest {
         const expected: number = 10;
 
         // When
-        const sum = this.sum.sum(a, b);
-        
+        const sum = this.calculator.sum(a, b);
+
         // Then
         assertEqual(sum,expected);
     }
