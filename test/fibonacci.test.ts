@@ -1,5 +1,5 @@
 import Fibonacci from '../src/fibonacci';
-import {assertEqual, Before, After, TsMuchi, Test, Context} from 'muchi-ts';
+import {assertEqual } from 'muchi-ts';
 
 
 class FibonacciTestCasePositionZero {
@@ -90,7 +90,7 @@ class FibonacciTestCasePositionSuperiorOne {
 }
 
 
-@TsMuchi({
+@MuchiTs({
     name: 'class Fibonacci()'
 })
 class FibonacciTest {

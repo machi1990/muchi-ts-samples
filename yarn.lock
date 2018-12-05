@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@types/muchi-ts@https://github.com/machi1990/muchi-ts-types.git":
+  version "2.0.0"
+  resolved "https://github.com/machi1990/muchi-ts-types.git#9d6f2aa1e942fd29c5e1cf136c4caf715c8a8d16"
+
 "@types/node@10.10.2":
   version "10.10.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.10.2.tgz#2a55b8d66f6945efc5da38489774e551248aa169"
@@ -29,9 +33,9 @@ commander@2.19.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
 
-"dada-js@git+https://chitson1990@bitbucket.org/chitson1990/dada-js.git":
-  version "1.2.1"
-  resolved "git+https://chitson1990@bitbucket.org/chitson1990/dada-js.git#3a96841310913deeeea418d9debf912c6e64588a"
+"dada-js@https://github.com/machi1990/dada-js.git":
+  version "1.2.2"
+  resolved "https://github.com/machi1990/dada-js.git#c3600fc17b08c9a8c1e914becb26164547934103"
   dependencies:
     lodash "4.17.11"
 
@@ -45,15 +49,16 @@ lodash@4.17.11:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
-"muchi-ts@git+https://chitson1990@bitbucket.org/chitson1990/muchi-ts.git":
-  version "2.0.1"
-  resolved "git+https://chitson1990@bitbucket.org/chitson1990/muchi-ts.git#ca2f586a4645bdc8960665788509828c3ef0e118"
+"muchi-ts@git+https://chitson1990@bitbucket.org/chitson1990/muchi-ts.git#4.0.0":
+  version "4.0.0"
+  resolved "git+https://chitson1990@bitbucket.org/chitson1990/muchi-ts.git#4a19b7f5b2284a4c31c38febc8b3d38cad62dc17"
   dependencies:
+    "@types/muchi-ts" "https://github.com/machi1990/muchi-ts-types.git"
     "@types/node" "10.10.2"
     assert "1.4.1"
     colors "1.3.2"
     commander "2.19.0"
-    dada-js "git+https://chitson1990@bitbucket.org/chitson1990/dada-js.git"
+    dada-js "https://github.com/machi1990/dada-js.git"
     reflect-metadata "0.1.12"
     source-map-support "0.5.9"
     typescript "3.1.3"

@@ -1,9 +1,8 @@
 import Calculator from '../src/calculator';
-import {assertEqual, Before, After, TsMuchi, Test} from 'muchi-ts';
+import {assertEqual} from 'muchi-ts';
 
-@TsMuchi({
-    name: 'class Calculator()',
-    ignore: true
+@MuchiTs({
+    name: 'class Calculator()'
 })
 class SumTest {
     private calculator: Calculator;
@@ -19,7 +18,8 @@ class SumTest {
     }
 
     @Test({
-        it: 'returns the number when adding with zero'
+        it: 'returns the number when adding with zero',
+        ignore: true
     })
     public shouldReturnTheNumber() {
         // Given
