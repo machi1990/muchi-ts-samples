@@ -1,9 +1,10 @@
 {
-  "name": "muchi-ts-sample",
+  "name": "muchi-ts-samples",
   "version": "1.0.0",
   "description": "muchi-ts sample files",
   "scripts": {
-    "test": "muchi -t test/"
+    "test": "muchi -t test/",
+    "precommit": "pretty-quick --staged"
   },
   "author": {
     "name": "Manyanda Chitimbo",
@@ -11,6 +12,11 @@
   },
   "license": "ISC",
   "dependencies": {
-    "muchi-ts": "git+https://chitson1990@bitbucket.org/chitson1990/muchi-ts.git"
+    "muchi-ts": "https://github.com/machi1990/muchi-ts.git"
+  },
+  "devDependencies": {
+    "husky": "1.2.0",
+    "prettier": "1.15.3",
+    "pretty-quick": "1.8.0"
   }
 }
