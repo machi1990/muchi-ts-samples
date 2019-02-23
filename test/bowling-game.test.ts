@@ -2,8 +2,7 @@ import { assertEqual } from "muchi-ts";
 import { BowlingGame } from "../src/bowling-game";
 
 @MuchiTs({
-  name: "class BowlingV1()",
-  ignore: true
+  name: "class Bowling()"
 })
 class BowlingV1Test {
   private bowlingGame: BowlingGame = null;

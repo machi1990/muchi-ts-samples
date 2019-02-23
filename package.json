@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "muchi-ts": "https://github.com/machi1990/muchi-ts.git"
+    "muchi-ts": "2.0.1"
   },
   "devDependencies": {
     "husky": "1.2.0",
