@@ -1,10 +1,4 @@
-declare const MuchiTs: any;
-declare const Only: any;
-declare const Mock: any;
-declare const Before: any;
-declare const Test: any;
-
-import { assertEqual, verify } from "muchi-ts";
+import { assertEqual, verify, assertNotEqual } from "muchi-ts";
 
 class ClassToMock {
   public sayHelloMock() {
@@ -61,6 +55,6 @@ export default class MuchiTsMockTest {
   })
   arrayNotEqualNull(): void {
     // Then
-    assertEqual([1, 2, 3], null);
+    assertNotEqual([1, 2, 3], null);
   }
 }

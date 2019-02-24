@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/muchi-ts@https://github.com/machi1990/muchi-ts-types.git":
+"@types/muchi-ts@git+https://github.com/machi1990/muchi-ts-types.git":
   version "2.0.0"
-  resolved "https://github.com/machi1990/muchi-ts-types.git#9d6f2aa1e942fd29c5e1cf136c4caf715c8a8d16"
+  resolved "git+https://github.com/machi1990/muchi-ts-types.git#9d6f2aa1e942fd29c5e1cf136c4caf715c8a8d16"
 
 "@types/node@10.10.2":
   version "10.10.2"
@@ -236,12 +236,6 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
 
-js-dada@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/js-dada/-/js-dada-2.0.0.tgz#e5bf3906c649139b89ebbd6f73f99f7b7ffb0229"
-  dependencies:
-    lodash "4.17.11"
-
 js-yaml@^3.9.0:
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
@@ -271,10 +265,6 @@ lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
-lodash@4.17.11:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-
 lru-cache@^4.0.1:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
@@ -286,16 +276,15 @@ mri@^1.1.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/mri/-/mri-1.1.4.tgz#7cb1dd1b9b40905f1fac053abe25b6720f44744a"
 
-muchi-ts@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/muchi-ts/-/muchi-ts-2.0.1.tgz#48ad1d1f911148b3e9b56a2edb8bbce5bcc48756"
+muchi-ts@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/muchi-ts/-/muchi-ts-2.1.0.tgz#29a3f9acc8d3c5496144bc90f2452252a8f534f1"
   dependencies:
     "@types/muchi-ts" "https://github.com/machi1990/muchi-ts-types.git"
     "@types/node" "10.10.2"
     assert "1.4.1"
     colors "1.3.2"
     commander "2.19.0"
-    js-dada "2.0.0"
     reflect-metadata "0.1.12"
     source-map-support "0.5.9"
     typescript "3.3.3333"
