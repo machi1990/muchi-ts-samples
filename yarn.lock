@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/muchi-ts@git+https://github.com/machi1990/muchi-ts-types.git":
+"@types/muchi-ts@https://github.com/machi1990/muchi-ts-types.git":
   version "2.0.0"
-  resolved "git+https://github.com/machi1990/muchi-ts-types.git#9d6f2aa1e942fd29c5e1cf136c4caf715c8a8d16"
+  resolved "https://github.com/machi1990/muchi-ts-types.git#9d6f2aa1e942fd29c5e1cf136c4caf715c8a8d16"
 
 "@types/node@10.10.2":
   version "10.10.2"
@@ -276,9 +276,9 @@ mri@^1.1.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/mri/-/mri-1.1.4.tgz#7cb1dd1b9b40905f1fac053abe25b6720f44744a"
 
-muchi-ts@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/muchi-ts/-/muchi-ts-2.1.0.tgz#29a3f9acc8d3c5496144bc90f2452252a8f534f1"
+"muchi-ts@https://github.com/machi1990/muchi-ts":
+  version "2.1.1"
+  resolved "https://github.com/machi1990/muchi-ts#c1f97ce90a0bf7d0d672d29770bb92c7847a6ea2"
   dependencies:
     "@types/muchi-ts" "https://github.com/machi1990/muchi-ts-types.git"
     "@types/node" "10.10.2"

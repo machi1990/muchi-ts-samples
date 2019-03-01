@@ -11,11 +11,9 @@
     "email": "manyanda.chitimbo@gmail.com"
   },
   "license": "ISC",
-  "dependencies": {
-    "muchi-ts": "^2.0.0"
-  },
   "devDependencies": {
     "husky": "1.2.0",
+    "muchi-ts": "https://github.com/machi1990/muchi-ts",
     "prettier": "1.15.3",
     "pretty-quick": "1.8.0"
   }
