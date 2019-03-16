@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "muchi-ts sample files",
   "scripts": {
-    "test": "muchi -t test/",
+    "test": "muchi -t test",
+    "coverage": "nyc npm test",
     "precommit": "pretty-quick --staged"
   },
   "author": {
@@ -14,6 +15,7 @@
   "devDependencies": {
     "husky": "1.2.0",
     "muchi-ts": "https://github.com/machi1990/muchi-ts",
+    "nyc": "13.3.0",
     "prettier": "1.15.3",
     "pretty-quick": "1.8.0"
   }
